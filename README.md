@@ -1,0 +1,1 @@
+"React-zero-to-hero" is an educational repository designed to guide beginners on their journey to mastering React.js development. With a focus on simplicity and clarity, this repository offers a structured learning path that progresses from fundamental concepts to advanced topics, allowing learners to build a strong foundation in React development.
