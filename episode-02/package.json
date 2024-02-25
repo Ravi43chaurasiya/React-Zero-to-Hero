@@ -1,0 +1,22 @@
+{
+  "name": "episode-02",
+  "version": "1.0.0",
+  "description": "react by ravi",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravi43chaurasiya/React-Zero-to-Hero.git"
+  },
+  "author": "Ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravi43chaurasiya/React-Zero-to-Hero/issues"
+  },
+  "homepage": "https://github.com/Ravi43chaurasiya/React-Zero-to-Hero#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
