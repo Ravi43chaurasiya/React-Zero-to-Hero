@@ -1,3 +1,8 @@
 revision
 Assignment
 episode-02/node_modules
+episode-02/dist
+episode-02/.parcel-cache
+episode-03/node_modules
+episode-03/dist
+episode-03/.parcel-cache
