@@ -6,26 +6,23 @@ const Header=()=>{
 
   const [status,setStatus]=useState("Login")
   console.log("header loaded")
-//1.no dependancy array
-//2.[]i.e=>empty dependancy array
-//3.[value]
+
   useEffect(()=>{
     console.log("useEffect called")
   },["status1"])
 
   return(
-    <div className="header">
-      <div className="logo-container">
-      <img className="logo" src={LOGO_URL}></img>
+    <div className="header flex justify-between bg-purple-300 items-center sticky top-0 h-[90px]">
+      <div className="logo-container  ">
+      <img className="logo h-[90px] bg-transparent opacity-50" src={LOGO_URL}></img>
       </div>
-      <div className="nav-items">
-        <ul type="none">
-        <li><Link to="/">Home</Link></li>
-          {/* <li><Link to="/">Home</Link></li> */}
-          <li><Link to="/about"> About us</Link></li>
-          <li><Link to="/contact">Contact us</Link></li>
-          <li>Cart</li>
-          <button className="login-button" onClick={()=>{
+      <div className="nav-items  ">
+        <ul type="none" className="flex items-center">
+        <li className=" m-2 font-bold"><Link to="/">Home</Link></li>
+          <li className=" m-2 font-bold"><Link to="/about"> About us</Link></li>
+          <li className=" m-2 font-bold"><Link to="/contact">Contact us</Link></li>
+          <li className=" m-2 font-bold">Cart</li>
+          <button className="login-button mx-4 font-bold " onClick={()=>{
             if(status==="Login")
             {
               setStatus("Logout")
